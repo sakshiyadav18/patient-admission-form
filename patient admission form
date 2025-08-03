@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Patient Admission Form</title>
+</head>
+<body style="background-color: rgb(244, 213, 237); font-family: Arial;">
+
+  <div style="width: 700px; margin: auto; background-color: white; padding: 20px; border: 2px solid #ccc;">
+
+    <div style="background-color: #11c784; color: rgb(113, 35, 35); padding: 10px;">
+      <h2 style="margin: 0;">Patient Admission Form</h2>
+    </div>
+
+    <div style="padding: 10px 0; font-weight: bold;">PATIENT DETAILS</div>
+
+    <form>
+
+      <table width="100%" cellpadding="8">
+        <tr>
+          <td>First Name:</td>
+          <td><input type="text" name="first_name" style="width: 95%;"></td>
+          <td>Age:</td>
+          <td><input type="number" name="age" style="width: 95%;"></td>
+        </tr>
+
+        <tr>
+          <td>Given Name:</td>
+          <td><input type="text" name="given_name" style="width: 95%;"></td>
+        </tr>
+
+        <tr>
+          <td>Ethnicity:</td>
+          <td>
+            <select>name="ethnicity" style="width: 100%;">
+              <option>Select</option>
+              <option>Asian</option>
+              <option>Black/Afircan</option>
+              <option>White/European</option>
+              <option>jewish</option>
+              <option>Arab</option>
+              <option>others</option>
+            </select>
+          </td>
+
+          <td>Gender:</td>
+          <td>
+            <select name="gender" style="width: 100%;">
+              <option>Select</option>
+              <option>Male</option>
+              <option>Female</option>
+              <option>Other</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Residential Address:</td>
+          <td><input type="text" name="address"style="width: 100%;" ></td>
+
+          <td>Blood Group:</td>
+          <td>
+            <select name="blood_group" style="width: 100%;">
+              <option>Select</option>
+              <option>A+</option>
+              <option>A-</option>
+              <option>B+</option>
+              <option>B-</option>
+              <option>O+</option>
+              <option>O-</option>
+              <option>AB+</option>
+              <option>AB-</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Email Address:</td>
+          <td><input type="email" name="email" style="width: 95%;"></td>
+
+          <td>Telephone:</td>
+          <td><input type="tel" name="telephone" style="width: 95%;"></td>
+        </tr>
+
+        <tr>
+          <td colspan="4" align="center">
+            <input type="submit" value="Save" style="padding: 10px 30px; margin-top: 10px;">
+          </td>
+        </tr>
+
+      </table>
+    </form>
+
+    <div style="text-align: center; margin-top: 10px; color: blue;">From Codipace</div>
+  </div>
+
+</body>
+</html>
